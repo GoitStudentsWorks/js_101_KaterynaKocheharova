@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_101_KaterynaKocheharova/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is my portfolio website showing my skills and projects done using html, cssm js"
+    />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/js_101_KaterynaKocheharova/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_101_KaterynaKocheharova/assets/vendor-1c985682.js">
+    <link rel="stylesheet" href="/js_101_KaterynaKocheharova/assets/vendor-a776dd97.css">
+    <link rel="stylesheet" href="/js_101_KaterynaKocheharova/assets/index-d783a05e.css">
+  </head>
+  <body class="our-body">
+    <header class="header">
+  <div class="container header-box">
+    <div class="logo-box">
+      <picture>
+        <source
+          srcset="/js_101_KaterynaKocheharova/assets/header-logo-1x-1ea26237.png 1x, /js_101_KaterynaKocheharova/assets/header-logo-2x-0bcef3d8.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img src="/js_101_KaterynaKocheharova/assets/header-logo-1x-1ea26237.png" alt="jefferson" class="logo" loading="lazy" />
+      </picture>
+      <p>jefferson*</p>
+    </div>
+    <div class="dropdown">
+      <button class="dropdown-btn-menu">Menu</button>
+      <div class="dropdown-box" id="menu">
+        <ul class="dropdown-items">
+          <li class="dropdown-item"><a href="#about-me">About me</a></li>
+          <li class="dropdown-item"><a href="#benefits">Benefits</a></li>
+          <li class="dropdown-item"><a href="#projects">Projects</a></li>
+          <li class="dropdown-item"><a href="#FAQ">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <a href="#work-together" class="button-order">Order the project</a>
+      <button class="header-burger" aria-label="header burger button">
+        <svg
+          class="header-burger-icon"
+          width="28"
+          height="28"
+          aria-label="icon-open-mobile-menu"
+        >
+          <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-menu-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="modal-menu">
+    <div class="box-menu container">
+      <div class="btn-box-close top-right">
+        <button class="close-btn-menu" aria-label="header modal close button">
+          <svg
+            class="close-btn-menu-icon"
+            width="28"
+            height="28"
+            aria-label="icon-close"
+          >
+            <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-x-close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu-box">
+        <ul class="mob-menu-item">
+          <li><a href="#about-me" class="modal-mob-menu-link">About me</a></li>
+          <li><a href="#benefits" class="modal-mob-menu-link">Benefits</a></li>
+          <li><a href="#projects" class="modal-mob-menu-link">Project</a></li>
+          <li><a href="#FAQ" class="modal-mob-menu-link">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="box-mob-button">
+        <a href="#work-together" class="mob-menu-button-order"
+          >Order the project</a
+        >
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="hero-section">
+<div class="container">
+<h1 class="hero-title">Hello. <br> 
+    I’m Fullstack developer
+    Lloyd Jefferson.</h1>
+    <ul class="hero-social-list">
+        <li class="hero-social-list-item">
+            <a href="https://www.instagram.com/goitclub/" 
+            class="hero-social-social-list-link"
+            target="_blank">IG</a> 
+        </li>
+        <li class="hero-social-list-item">
+            <a href="https://www.facebook.com/goITclub/" 
+            class="hero-social-social-list-link"
+            target="_blank">FB</a>
+        </li>
+        <li class="hero-social-list-item">
+            <a href="https://www.youtube.com/c/GoIT" 
+            class="hero-social-social-list-link"
+            target="_blank">YT</a>
+        </li>
+        <li class="hero-social-list-item">
+            <a href="https://github.com/KaterynaKocheharova/codeGeniuses-project-portfolio"
+             class="hero-social-social-list-link"
+             target="_blank">GH</a>
+        </li>
+        <li class="hero-social-list-item email">
+            <a href="mailto:lloydjefferson@gmail.com" class="email-link" target="_blank">lloydjefferson@gmail.com</a>
+        </li>         
+    </ul>
+</div>   
+</section>
+
+      <section class="about-me-section" id="about-me">
+  <div class="about-me-overall">
+    <h2 class="about-me-hidden-header">About me</h2>
+    <div class="container about-me-overall-description">
+      <div class="about-me-description-box">
+        <p class="about-me-description-text">
+          I work with people all over the world to create impressive and
+          <span class="about-me-description-text-red">functional</span>
+          <span class="about-me-description-text-gray">websites</span> that
+          reflect each client's unique personality.
+        </p>
+      </div>
+    </div>
+    <div class="container about-me-overall-photo">
+      <div class="about-me-description-box">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/js_101_KaterynaKocheharova/assets/about-me-desktop-1x-17ac7f15.jpg 1x, /js_101_KaterynaKocheharova/assets/about-me-desktop-2x-2b88d65d.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_101_KaterynaKocheharova/assets/about-me-tablet-1x-816c873a.jpg 1x, /js_101_KaterynaKocheharova/assets/about-me-tablet-2x-1e8790d7.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/js_101_KaterynaKocheharova/assets/about-me-mobile-1x-3d94707f.jpg 1x, /js_101_KaterynaKocheharova/assets/about-me-mobile-2x-7b50642b.jpg 2x"
+          />
+          <img
+            class="about-me-description-image"
+            src="/js_101_KaterynaKocheharova/assets/about-me-mobile-1x-3d94707f.jpg"
+            alt="Man with laptop"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+  <div class="about-me-accordion-section container">
+    <ul class="about-me-accordion-list accordion-container">
+      <li class="about-me-accordion-list-item ac">
+        <h3 class="about-me-accordion-list-item-title ac-header">
+          About me
+          <button class="accordion-list-item-button ac-trigger" aria-label="accordion close button">
+            <svg class="accordion-list-item-icon" width="20" height="20" aria-label="accordion close svg">
+              <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="accordion-list-item-text ac-panel">
+          I am Lloyd Jefferson, a talented programmer with extensive expertise
+          in software development. I have an understanding of different
+          programming languages ​and technologies, always ready to improve my
+          skills. I always follow the latest trends and look for unconventional,
+          creative solutions to problems. I have a high level of analytical
+          skills and am able to effectively solve even the most difficult tasks
+          encountered on the way.
+          <span class="indented"
+            >Able to work both independently and in a team. I can effectively
+            cooperate with colleagues, exchanging ideas and finding optimal
+            solutions. Professional maturity allows you to calmly cope with
+            challenges and stressful situations, while maintaining a high
+            quality of work.I am always looking for opportunities for
+            self-improvement. I actively study new technologies and practices to
+            stay abreast of the latest innovations. I have a strong
+            understanding of various programming languages, frameworks and
+            architectural concepts that allow me to create efficient and
+            scalable software.</span
+          >
+        </p>
+      </li>
+      <li class="about-me-accordion-list-item ac">
+        <h3 class="about-me-accordion-list-item-title ac-header">
+          ROLE
+          <button class="accordion-list-item-button ac-trigger" aria-label="accordion close button">
+            <svg class="accordion-list-item-icon" width="20" height="20"  aria-label="accordion close svg">
+              <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="accordion-list-item-text ac-panel">
+          Frontend development
+          <span class="indented-list"> HeadlessCMS,Wordpress </span>
+          <span class="indented-list indented-list-last"> Blender(enjoy) </span>
+        </p>
+      </li>
+      <li class="about-me-accordion-list-item ac">
+        <h3 class="about-me-accordion-list-item-title ac-header">
+          EDUCATION
+          <button class="accordion-list-item-button ac-trigger" aria-label="accordion close button">
+            <svg class="accordion-list-item-icon" width="20" height="20" aria-label="accordion close svg">
+              <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="accordion-list-item-text ac-panel">
+          2018 - 2019 / Frontend Development Diploma, GoIT IT
+          <span class="intended-enter"> School, New York</span>
+          <span class="indented-list">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+            <span class="intended-enter">School, New York</span>
+          </span>
+          <span class="indented-list indented-list-last">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </span>
+        </p>
+      </li>
+    </ul>
+  </div>
+  <div class="about-me-swiper-section container">
+    <div class="swiper about-me-swiper-container">
+      <ul class="swiper-wrapper about-me-swiper-wrapper-list">
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">Soft skills</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">HTML/CSS</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">JavaScript</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">React</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">Node.js</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">React Native</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">Soft skills</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">HTML/CSS</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">JavaScript</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">React</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">Node.js</button>
+        </li>
+        <li class="about-me-swiper-wrapper-item swiper-slide">
+          <button class="about-me-swiper-btn" aria-label="swiper button">React Native</button>
+        </li>
+      </ul>
+    </div>
+    <div class="about-me-swiper-btn-next swiper-button-next" aria-label="swipe right button">
+      <svg class="about-me-arrow-next" width="28" height="28" aria-label="swipe right icon">
+        <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-slider-arrow-left"></use>
+      </svg>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits-section" id="benefits">
+  <div class="container contain">
+    <h2 class="section-title benefits-title">Benefits of working with me</h2>
+    <div class="right-container">
+    <ul class="list-benefits">
+      <li class="benefit-item">
+        <div class="benefit-icons">
+          <svg class="icon-benefits" width="24" height="24" aria-label="user icon">
+            <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-user"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-subtitle">Expertise</h3>
+        <p class="benefits-txt">
+          As a highly experienced developer, I have deep knowledge of
+          programming and website development.
+        </p>
+      </li>
+      <li class="benefit-item">
+        <div class="benefit-icons">
+          <svg class="icon-benefits" width="24" height="24" aria-label="message icon">
+            <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-message-chat-circle"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-subtitle">Communication</h3>
+        <p class="benefits-txt">
+          Understanding your needs and wants is my priority and I am always open
+          to discussions and corrections.
+        </p>
+      </li>
+      <li class="benefit-item">
+        <div class="benefit-icons">
+          <svg class="icon-benefits" width="24" height="24" aria-label="brush icon">
+            <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-brush"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-subtitle">Art</h3>
+        <p class="benefits-txt">
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+      <li class="benefit-item">
+        <div class="benefit-icons">
+          <svg class="icon-benefits" width="24" height="24" aria-label="hourglass icon">
+            <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-hourglass"></use>
+          </svg>
+        </div>
+        <h3 class="benefits-subtitle">Urgent execution</h3>
+        <p class="benefits-txt">
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+     <a href="#work-together" class="order-button">Order the project</a>
+    </div>
+  </div>
+</section>
+
+      <section class="projects-section" id="projects">
+    <div class="container">
+        <h2 class="section-title projects-title">Projects</h2>
+        <div class="swiper-container projects-swiper-container">
+            <ul class="swiper-wrapper projects-swiper-wrapper">
+                <li class="swiper-slide projects-swiper-slide">
+                    <div class="project-wrapper">
+                        <div class="info-wrapper">
+                            <ul class="stack-list">
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#react</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#js</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#node js</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#git</p>
+                                </li>
+                            </ul>
+                            <h3 class="project-wrapper-txt">
+                                Programming Across Borders: Ideas, Technologies,
+                                Innovations
+                            </h3>
+                            <a class="project-wrapper-link"
+                                href="https://github.com/KaterynaKocheharova/codeGeniuses-project-portfolio" target="_blank">
+                                See project
+                            </a>
+                        </div>
+                        <div class="info-wrapper">
+                            <picture>
+                                <source media="(min-width: 1439px)" srcset="/js_101_KaterynaKocheharova/assets/project-1-mobile-1x-9925e3dc.png 1x, /js_101_KaterynaKocheharova/assets/project-1-mobile-2x-0f6ec2c9.png 2x" />
+                                <source media="(min-width: 768px)" srcset="/js_101_KaterynaKocheharova/assets/project-1-mobile-1x-9925e3dc.png 1x, /js_101_KaterynaKocheharova/assets/project-1-mobile-2x-0f6ec2c9.png 2x" />
+                                <source media="(max-width: 767px)" srcset="/js_101_KaterynaKocheharova/assets/project-1-mobile-1x-9925e3dc.png 1x, /js_101_KaterynaKocheharova/assets/project-1-mobile-2x-0f6ec2c9.png 2x" />
+                                <img class="info-wrapper-project-photo"
+                                    src="/js_101_KaterynaKocheharova/assets/project-1-mobile-1x-9925e3dc.png" alt="Project Photo"
+                                    loading="lazy" />
+                            </picture>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide projects-swiper-slide">
+                    <div class="project-wrapper">
+                        <div class="info-wrapper">
+                            <ul class="stack-list">
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#react</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#js</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#node js</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#git</p>
+                                </li>
+                            </ul>
+                            <h2 class="project-wrapper-txt">
+                                Programming Across Borders: Ideas, Technologies,
+                                Innovations
+                            </h2>
+                            <a class="project-wrapper-link"
+                                href="https://github.com/KaterynaKocheharova/codeGeniuses-project-portfolio" target="_blank">
+                                See project
+                            </a>
+                        </div>
+                        <div class="info-wrapper">
+                            <picture>
+                                <source media="(min-width: 1439px)" srcset="/js_101_KaterynaKocheharova/assets/project2-desktop-1x-17a4c62c.jpg 1x, /js_101_KaterynaKocheharova/assets/project-2-desktop-2x-9be5f0b1.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="/js_101_KaterynaKocheharova/assets/project-2-tablet-1x-min-0878db7c.jpg 1x, /js_101_KaterynaKocheharova/assets/project-2-tablet-2x-min-70227eb5.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="/js_101_KaterynaKocheharova/assets/project-2-mobile-1x-min-7ecb35f4.jpg 1x, /js_101_KaterynaKocheharova/assets/project-2-mobile-2x-min-b62b39e2.jpg 2x" />
+                                <img class="info-wrapper-project-photo"
+                                    src="./img/projects/mobile/project-2-mobile-1x.jpg" alt="Project Photo"
+                                    loading="lazy" />
+                            </picture>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide projects-swiper-slide">
+                    <div class="project-wrapper">
+                        <div class="info-wrapper">
+                            <ul class="stack-list">
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#react</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#js</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#node js</p>
+                                </li>
+                                <li class="stack-list-item">
+                                    <p class="stack-list-txt">#git</p>
+                                </li>
+                            </ul>
+                            <h2 class="project-wrapper-txt">
+                                Programming Across Borders: Ideas, Technologies, Innovations
+                            </h2>
+                            <a class="project-wrapper-link"
+                                href="https://github.com/KaterynaKocheharova/codeGeniuses-project-portfolio" target="_blank">
+                                See project
+                            </a>
+                        </div>
+                        <div class="info-wrapper">
+                            <picture>
+                                <source media="(min-width: 1439px)" srcset="/js_101_KaterynaKocheharova/assets/project-3-desktop-1x-e3ecc567.jpg 1x, /js_101_KaterynaKocheharova/assets/project-3-desktop-2x-2c830987.jpg 2x" />
+                                <source media="(min-width: 768px)" srcset="/js_101_KaterynaKocheharova/assets/project-3-tablet-1x-min-ffb2fa19.jpg 1x, /js_101_KaterynaKocheharova/assets/porject-3-tablet-2x-min-e7275899.jpg 2x" />
+                                <source media="(max-width: 767px)" srcset="/js_101_KaterynaKocheharova/assets/project-3-mobile-1x-min-5e6e70d8.jpg 1x, /js_101_KaterynaKocheharova/assets/project-3-mobile-2x-min-593ac7d1.jpg 2x" />
+                                <img class="info-wrapper-project-photo"
+                                    src="/js_101_KaterynaKocheharova/assets/project-3-mobile-1x-min-5e6e70d8.jpg" alt="Project Photo"
+                                    loading="lazy" />
+                            </picture>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="btns-wrapper">
+                <div class="custom-swiper-btn-prev">
+                    <svg class="swiper-btn-prev-icon" width="32" height="32" aria-label="swiper previous button">
+                        <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-slider-arrow-left"></use>
+                    </svg>
+                </div>
+                <div class="custom-swiper-btn-next">
+                    <svg class="swiper-btn-next-icon" width="32" height="32" aria-label="swiper next button">
+                        <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-slider-arrow-right"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="faq-questions-section" id="FAQ">
+  <div class="container faq-container">
+    <h2 class="section-title faq-title">faq</h2>
+    <ul class="faq-accordion-container faq-list">
+      <li class="ac faq-list-item item-1">
+        <h3 class="ac-header faq-list-item-title">
+          <button type="button" class="ac-trigger faq-btn" aria-label="open button">
+            <span class="button-text"
+              >What programming languages ​​are most often used in your project?
+            </span>
+            <span class="arrow-icon-container">
+              <svg class="arrow-icon" width="20" height="20" aria-label="open icon">
+                <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text faq-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac faq-list-item item-2">
+        <h3 class="ac-header faq-list-item-title">
+          <button type="button" class="ac-trigger faq-btn" aria-label="open button">
+            <span class="button-text"
+              >What are the deadlines for the project?</span
+            >
+            <span class="arrow-icon-container">
+              <svg class="arrow-icon" width="20" height="20" aria-label="open icon">
+                <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text faq-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac faq-list-item item-3">
+        <h3 class="ac-header faq-list-item-title">
+          <button type="button" class="ac-trigger faq-btn" aria-label="open button">
+            <span class="button-text">What payment methods do you accept?</span>
+            <span class="arrow-icon-container">
+              <svg class="arrow-icon" width="20" height="20" aria-label="open icon">
+                <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text faq-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="ac faq-list-item item-4">
+        <h3 class="ac-header faq-list-item-title">
+          <button type="button" class="ac-trigger faq-btn" aria-label="open button">
+            <span class="button-text">How can I contact you?</span>
+            <span class="arrow-icon-container">
+              <svg class="arrow-icon" width="20" height="20" aria-label="open icon">
+                <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text faq-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac faq-list-item item-5">
+        <h3 class="ac-header faq-list-item-title">
+          <button type="button" class="ac-trigger faq-btn" aria-label="open button">
+            <span class="button-text">Do you provide advice or support?</span>
+            <span class="arrow-icon-container">
+              <svg class="arrow-icon" width="20" height="20" aria-label="open svg">
+                <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text faq-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac faq-list-item item-6">
+        <h3 class="ac-header faq-list-item-title">
+          <button type="button" class="ac-trigger faq-btn" aria-label="open button">
+            <span class="button-text"
+              >What does the process of developing a software product look like
+              from idea to implementation?</span
+            >
+            <span class="arrow-icon-container">
+              <svg class="arrow-icon" width="20" height="20" aria-label="open icon">
+                <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-accordion-down"></use>
+              </svg>
+            </span>
+          </button>
+        </h3>
+        <div class="ac-panel">
+          <p class="ac-text faq-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section-covers">
+    <h2 class="visually-hidden">Covers</h2>
+    <div class="content">
+        <div class="film">
+
+<!--============================== L I N E  1 =========================-->
+            <ul class="film-line" >
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-organic-diet-c3871948.png 1x, /js_101_KaterynaKocheharova/assets/m-organic-diet@2x-b62bb278.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png" 
+                            alt="organic diet cover" 
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png 1x, /js_101_KaterynaKocheharova/assets/d-ukrainian-artistry@2x-bb99f2e6.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png 1x, /js_101_KaterynaKocheharova/assets/d-ukrainian-artistry@2x-bb99f2e6.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-ukrainian-artistry-e73cf532.png 1x, /js_101_KaterynaKocheharova/assets/m-ukrainian-artistry@2x-265591d5.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png" 
+                            alt="urkrainian artistry cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-english-school-69c63a63.png 1x, /js_101_KaterynaKocheharova/assets/d-english-school@2x-5f89fd14.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-english-school-69c63a63.png 1x, /js_101_KaterynaKocheharova/assets/d-english-school@2x-5f89fd14.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-english-school-2df82784.png 1x, /js_101_KaterynaKocheharova/assets/m-english-school@2x-438ac3b6.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-english-school-69c63a63.png" 
+                            alt="english school cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png 1x, /js_101_KaterynaKocheharova/assets/d-brand-shop@2x-e456cf42.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png 1x, /js_101_KaterynaKocheharova/assets/d-brand-shop@2x-e456cf42.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-brand-shop-854f380e.png 1x, /js_101_KaterynaKocheharova/assets/m-brand-shop@2x-263bf0a8.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png" 
+                            alt="brand shop cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-harvest-box-0c799dfb.png 1x, /js_101_KaterynaKocheharova/assets/d-harvest-box@2x-92a69b8a.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-harvest-box-0c799dfb.png 1x, /js_101_KaterynaKocheharova/assets/d-harvest-box@2x-92a69b8a.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-harvest-box-ff7284f1.png 1x, /js_101_KaterynaKocheharova/assets/m-harvest-box@2x-5454e337.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-harvest-box-0c799dfb.png" 
+                            alt="harvest box cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+            </ul>
+
+<!--=========================== L I N E  2 ============================-->
+           
+            <ul class="film-line" >
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-watch-collection-8a37c114.png 1x, /js_101_KaterynaKocheharova/assets/d-watch-collection@2x-503e9d01.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-watch-collection-8a37c114.png 1x, /js_101_KaterynaKocheharova/assets/d-watch-collection@2x-503e9d01.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-watch-collection-ca89348c.png 1x, /js_101_KaterynaKocheharova/assets/m-watch-collection@2x-2e816bb1.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-watch-collection-8a37c114.png" 
+                            alt="watch collection cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>                 
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-transform@2x-6e7af2ab.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-transform@2x-6e7af2ab.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-fitness-transform-c9145d8d.png 1x, /js_101_KaterynaKocheharova/assets/m-fitness-transform@2x-202b539e.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png" 
+                            alt="fitness cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-mimino-b97c2623.png 1x, /js_101_KaterynaKocheharova/assets/d-mimino@2x-0812b361.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-mimino-b97c2623.png 1x, /js_101_KaterynaKocheharova/assets/d-mimino@2x-0812b361.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-mimino-5235a0c8.png 1x, /js_101_KaterynaKocheharova/assets/m-mimino@2x-589d3529.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/m-mimino-5235a0c8.png" 
+                            alt="mimino cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-shape@2x-af19d0f3.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-shape@2x-af19d0f3.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-fitness-shape-bb7c02c6.png 1x, /js_101_KaterynaKocheharova/assets/m-fitness-shape@2x-d571ed45.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png" 
+                            alt="fitness cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-organic-diet-c3871948.png 1x, /js_101_KaterynaKocheharova/assets/m-organic-diet@2x-b62bb278.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png" 
+                            alt="organic diet cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+            </ul>
+
+
+<!-- ========================== L I N E  3 ============================-->
+            <ul class="film-line" >
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-harvest-box-0c799dfb.png 1x, /js_101_KaterynaKocheharova/assets/d-harvest-box@2x-92a69b8a.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-harvest-box-0c799dfb.png 1x, /js_101_KaterynaKocheharova/assets/d-harvest-box@2x-92a69b8a.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-harvest-box-ff7284f1.png 1x, /js_101_KaterynaKocheharova/assets/m-harvest-box@2x-5454e337.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-harvest-box-0c799dfb.png" 
+                            alt="harvest box cover"
+                            loading="lazy" 
+                            >
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-french-school-e5984d94.png 1x, /js_101_KaterynaKocheharova/assets/d-french-school@2x-47153d60.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-french-school-e5984d94.png 1x, /js_101_KaterynaKocheharova/assets/d-french-school@2x-47153d60.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-french-school-367df5b9.png 1x, /js_101_KaterynaKocheharova/assets/m-french-school@2x-b6d016a5.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-french-school-e5984d94.png" 
+                            alt="finances school cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-watch-collection-8a37c114.png 1x, /js_101_KaterynaKocheharova/assets/d-watch-collection@2x-503e9d01.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-watch-collection-8a37c114.png 1x, /js_101_KaterynaKocheharova/assets/d-watch-collection@2x-503e9d01.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-watch-collection-ca89348c.png 1x, /js_101_KaterynaKocheharova/assets/m-watch-collection@2x-2e816bb1.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-watch-collection-8a37c114.png" 
+                            alt="watch collection cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png 1x, /js_101_KaterynaKocheharova/assets/d-ukrainian-artistry@2x-bb99f2e6.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png 1x, /js_101_KaterynaKocheharova/assets/d-ukrainian-artistry@2x-bb99f2e6.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-ukrainian-artistry-e73cf532.png 1x, /js_101_KaterynaKocheharova/assets/m-ukrainian-artistry@2x-265591d5.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png" 
+                            alt="ukrainian artistry cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>                    
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-transform@2x-6e7af2ab.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-transform@2x-6e7af2ab.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-fitness-transform-c9145d8d.png 1x, /js_101_KaterynaKocheharova/assets/m-fitness-transform@2x-202b539e.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png" 
+                            alt="fitness cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+            </ul> 
+
+<!-- =========================== L I N E  4 ============================-->
+            <ul class="film-line" >
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png 1x, /js_101_KaterynaKocheharova/assets/d-brand-shop@2x-e456cf42.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png 1x, /js_101_KaterynaKocheharova/assets/d-brand-shop@2x-e456cf42.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-brand-shop-854f380e.png 1x, /js_101_KaterynaKocheharova/assets/m-brand-shop@2x-263bf0a8.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png" 
+                            alt="brand shop cover"
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-organic-diet-c3871948.png 1x, /js_101_KaterynaKocheharova/assets/m-organic-diet@2x-b62bb278.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png" 
+                            alt="organic-diet-cover"
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-shape@2x-af19d0f3.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-shape@2x-af19d0f3.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-fitness-shape-bb7c02c6.png 1x, /js_101_KaterynaKocheharova/assets/m-fitness-shape@2x-d571ed45.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png" 
+                            alt="fitness cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>        
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-french-school-e5984d94.png 1x, /js_101_KaterynaKocheharova/assets/d-french-school@2x-47153d60.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-french-school-e5984d94.png 1x, /js_101_KaterynaKocheharova/assets/d-french-school@2x-47153d60.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-french-school-367df5b9.png 1x, /js_101_KaterynaKocheharova/assets/m-french-school@2x-b6d016a5.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-french-school-e5984d94.png" 
+                            alt="finance school cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-shape@2x-af19d0f3.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-shape@2x-af19d0f3.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-fitness-shape-bb7c02c6.png 1x, /js_101_KaterynaKocheharova/assets/m-fitness-shape@2x-d571ed45.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-fitness-shape-0305c262.png" 
+                            alt="fitness cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+            </ul>
+
+<!-- ======================= L I N E  5 ================================-->
+            <ul class="film-line" >
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-transform@2x-6e7af2ab.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png 1x, /js_101_KaterynaKocheharova/assets/d-fitness-transform@2x-6e7af2ab.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-fitness-transform-c9145d8d.png 1x, /js_101_KaterynaKocheharova/assets/m-fitness-transform@2x-202b539e.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-fitness-transform-0949b838.png" 
+                            alt="fitness center cover"
+                            loading="lazy" 
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-mimino-b97c2623.png 1x, /js_101_KaterynaKocheharova/assets/d-mimino@2x-0812b361.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-mimino-b97c2623.png 1x, /js_101_KaterynaKocheharova/assets/d-mimino@2x-0812b361.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-mimino-5235a0c8.png 1x, /js_101_KaterynaKocheharova/assets/m-mimino@2x-589d3529.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/m-mimino-5235a0c8.png" 
+                            alt="mimino cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png 1x, /js_101_KaterynaKocheharova/assets/d-organic-diet@2x-db423f9a.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-organic-diet-c3871948.png 1x, /js_101_KaterynaKocheharova/assets/m-organic-diet@2x-b62bb278.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-organic-diet-7b77b759.png" 
+                            alt="organic diet cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png 1x, /js_101_KaterynaKocheharova/assets/d-ukrainian-artistry@2x-bb99f2e6.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png 1x, /js_101_KaterynaKocheharova/assets/d-ukrainian-artistry@2x-bb99f2e6.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-ukrainian-artistry-e73cf532.png 1x, /js_101_KaterynaKocheharova/assets/m-ukrainian-artistry@2x-265591d5.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-ukrainian-artistry-d9c78e2d.png" 
+                            alt="ukrainian artistry cover" 
+                            loading="lazy"
+                            >
+                        </picture>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="film-element">
+                        <picture>
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png 1x, /js_101_KaterynaKocheharova/assets/d-brand-shop@2x-e456cf42.png 2x"
+                            media="(min-width: 1440px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png 1x, /js_101_KaterynaKocheharova/assets/d-brand-shop@2x-e456cf42.png 2x"
+                            media="(min-width: 768px)"
+                            >
+
+                            <source
+                            srcset="/js_101_KaterynaKocheharova/assets/m-brand-shop-854f380e.png 1x, /js_101_KaterynaKocheharova/assets/m-brand-shop@2x-263bf0a8.png 2x"
+                            media="(max-width: 767px)"
+                            >
+
+                            <img 
+                            src="/js_101_KaterynaKocheharova/assets/d-brand-shop-709707bf.png" 
+                            alt="brand shop cover" 
+                            loading="lazy"
+                            >
+
+                        </picture>
+                    </div>
+                </li>
+                
+            </ul>
+
+            
+            
+        </div>
+    </div>
+</section>
+      <section class="reviews-section">
+  <div class="container">
+    <h2 class="section-title reviews-title">Reviews</h2>
+    <div class="reviews-swiper-container">
+      <ul class="swiper-wrapper reviews-swiper-wrapper">
+      </ul>
+      <div class="btns-wrapper">
+        <div class="custom-swiper-btn-prev">
+          <svg class="swiper-btn-prev-icon" width="32" height="32" aria-label="swiper previous button">
+            <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-slider-arrow-left"></use>
+          </svg>
+        </div>
+        <div class="custom-swiper-btn-next">
+          <svg class="swiper-btn-next-icon" width="32" height="32" aria-label="swiper next button">
+            <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-slider-arrow-right"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="work-together-section" id="work-together">
+  <div class="container">
+    <div class="footer-content-wrapper">
+      <h2 class="footer-title">
+        <picture>
+          <source
+            srcset="data:image/png;base64,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 , /js_101_KaterynaKocheharova/assets/footer-tablet-and-desktop-logo-2x-4aafe37b.png "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="data:image/png;base64,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 , /js_101_KaterynaKocheharova/assets/mobile-footer-logo-2x-a327095d.png "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="data:image/png;base64,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"
+            alt="me"
+            class="footer-img"
+            loading="lazy"
+          />
+        </picture>
+        LET'S <span class="highlighted-text">WORK</span>TOGETHER
+      </h2>
+      <form class="form-section" novalidate>
+        <div class="input-fields">
+          <div>
+            <input
+              class="input-field"
+              type="email"
+              name="email"
+              placeholder="clients@gmail.com"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+              title="Please enter a valid email address"
+              autocomplete="off"
+              required
+            />
+            <p class="success-text visually-hidden">Success</p>
+            <p class="error-text visually-hidden">Invalid email, try again</p>
+          </div>
+          <div>
+            <input
+              class="input-field"
+              name="comment"
+              placeholder="comments"
+              maxlength="50"
+              autocomplete="off"
+              required
+            />
+            <p class="success-text visually-hidden">Success</p>
+            <p class="error-text visually-hidden">Invalid email, try again</p>
+          </div>
+        </div>
+        <button type="submit" class="submit-button">Send</button>
+      </form>
+      <div class="contact-info">
+        <a class="email-info" href="mailto:lloydjefferson@gmail.com"
+          >lloydjefferson@gmail.com</a
+        >
+        <a class="phone-info" href="tel:+3801111111111"
+          >+380 11 1111 11 11</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+      <div class="backdrop hidden">
+  <div class="modal-window">
+    <button class="close-btn">
+      <svg class="svg-close" aria-label="work together modal close button">
+        <use href="/js_101_KaterynaKocheharova/assets/sprite-111b9de5.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <div class="text-container">
+      <h2 class="modal-title">Thank you for your interest in cooperation!</h2>
+      <p class="modal-paragraf">
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch
+      </p>
+      </div>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>
